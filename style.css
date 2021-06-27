@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
+/* html[theme='dark-mode'] {
+    filter: invert(1) hue-rotate(180deg);
+} */
+:root{
+    /* --primary-color: #111827; */
+    /* --primary-color: #337ab7; */
+   --primary-color: #182d5c;
+    --blue-color : #4B5563;
+    --off-white: #E5E7EB;
+}
 body{
     font-family: 'Montserrat', sans-serif;
     margin:0px;
@@ -27,3 +36,101 @@ margin: auto;
     padding: 0.5em 0.5rem;
     margin: 1rem 0.5rem 0.5rem 0rem;
 }
+.projects-text{
+    padding: 0rem 0rem 1rem 0rem;
+}
+.secondary-link{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    padding: 0.5rem 0.5rem;
+    margin: 1rem 0.5rem 0.5rem 0rem;
+}
+.list-non-bullet{
+list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding:0rem 0.5rem;
+}
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.5rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+.navigation .links{
+    color:white;
+}
+.navigation .nav-pills{
+    text-align: right;
+}
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+
+}
+
+#top-name{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.navigation .link-active{
+    font-weight: bold;
+}
+.hero{
+    padding:2rem;
+    padding-top: 3rem;
+}
+.hero .hero-img{
+    max-width: 250px;
+    display: block;
+    margin: auto;
+}
+.hero .hero-heading{
+    color: var(--blue-color);
+    text-align: center;
+    padding-top: 1rem;
+}
+.section{
+    padding: 2rem;
+}
+
+.section h1{
+text-align: center;
+}
+.ow {
+    background-color: var(--off-white);
+}
+.footer {
+    background-color:var(--primary-color);
+    padding: 1rem 1rem;
+    text-align: center;
+    color:white;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+    padding-bottom: 1em;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
+.footer img{
+    width: 1.5em;
+    
+}
+.marge{
+    padding:15px 0px;
+}
+p.big{
+    line-height: 2 ;
+}
+
+
+
