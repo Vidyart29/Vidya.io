@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects | Vidya</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
     <link href="style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="nav.css">
     <link  rel="shortcut icon" href="Images/ln_photo.jpg" type="image/x-icon">
 </head>
 <body>
-    <nav class="navigation">
+    <!-- <nav class="navigation">
     <div class= "nav-brand">Vidya Rautela</div>
         <ul class = "list-non-bullet nav-pills">
           <li class = "list-item-inline">
@@ -25,22 +28,62 @@
             <a class = "links" href="/blogs.html">Blogs</a>
           </li>
         </ul>
+      </nav> -->
+      <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fa fa-bars"></i>
+        </label>
+        <label class="logo">Vidya Rautela</label>
+        <ul>
+          <li><a class="active" href="/index.html">Home</a></li>
+          <li><a href="/about.html">About Me</a></li>
+          <li><a href="/projects.html">Projects</a></li>
+          <li><a href="#">Resume</a></li>
+          <li><a href="#"></a></li>
+        </ul>
       </nav>
       <header class = "hero">
         <img class = "hero-img" src ="images/projects.svg"/>
         <h1 class = "hero-heading"><span style ="color:var(--primary-color)"> Projects</span></h1>
       </header>
-
       <section class = "section ow">
         <div class = "container container-center">
-      <h1>title</h1>
-      <small>date</small>
-      <p class = "projects-text">describtion</p>
+      <h1>WordsValley</h1>
+      <small></small>
+      <p class = "projects-text"></p>
       <a class = "links primary-link" href="#">Live Project</a>
-      <a class = "links secondary-link" href="#"> Source Code</a>
+      <a class = "links secondary-link" href="#">Read More</a>
     </div>
   </section>
 
+  <section class = "section">
+    <div class = "container container-center">
+  <h1>Daily TODO</h1>
+  <small></small>
+  <p class = "projects-text"></p>
+  <a class = "links primary-link" href="#">Live Project</a>
+  <a class = "links secondary-link" href="https://github.com/Vidyart29/daily-todo">Read More</a>
+</div>
+</section>
+      <section class = "section ow">
+        <div class = " container container-center">
+        <h1>Weather Map</h1>
+        <small></small>
+        <p class = "projects-text"></p>
+        <a class = "links primary-link" href="https://vidyart29.github.io/weather-map/">Live Project</a>
+        <a class = "links secondary-link" href="https://github.com/Vidyart29/weather-map">Read More</a>
+      </div>
+      </section>
+      <section class = "section">
+          <div class = " container container-center">
+          <h1>Yumfooddaries</h1>
+          <small></small>
+          <p class = "projects-text"></p>
+          <a class = "links primary-link" href="https://yumfooddiaries.herokuapp.com/">Live Project</a>
+          <a class = "links secondary-link" href="https://github.com/Vidyart29/YumFoodDiaries">Read More</a>
+        </div>
+        </section>
 
 <footer class = "footer">
     <div class = "footer-header">Connect with me:</div>
@@ -59,6 +102,6 @@
         </li>
     </ul>
     <p>Vidya Rautela &copy; 2021</p>
-  </footer>
+  </footer> 
 </body>
 </html>

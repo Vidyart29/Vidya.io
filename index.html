@@ -12,66 +12,61 @@
 		<meta property="og:type" content="website">
 		<meta property="og:description" content="Full Stack Web Developer">
 		<meta property="og:url" content="https://vidyart29.github.io/">
-		<!-- <meta property="og:image" content="https://user-images.githubusercontent.com/69438458/122118830-2349be00-ce46-11eb-94c2-e63778c6d616.jpg">
+		<meta property="og:image" content="https://user-images.githubusercontent.com/69438458/122118830-2349be00-ce46-11eb-94c2-e63778c6d616.jpg">
 		<meta property="twitter:image" content="https://user-images.githubusercontent.com/69438458/122118830-2349be00-ce46-11eb-94c2-e63778c6d616.jpg">
-    -->
+   
   <meta http-equiv="refresh" content="30">
   <link href="style.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="nav.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
   <link  rel="shortcut icon" href="Images/ln_photo.jpg" type="image/x-icon">
   <title>Home | Vidya</title>
+
 </head>
 <body>
-  <nav class="navigation">
-    <div class= "nav-brand" id="top-name">Vidya's Portfolio  <span>  <i class="fa fa-moon-o" style="font-size:36px"></i></span> </div>
-    <ul class = "list-non-bullet nav-pills">
-      <li class = "list-item-inline">
-        <a class = "links link-active" href="/">Home</a>
-      </li>
-      <li class = "list-item-inline">
-        <a class = "links" href="/about.html">About Me</a>
-      </li>
-      <li class = "list-item-inline">
-        <a class = "links" href="#projects">Projects</a>
-      </li>
-      <li class = "list-item-inline">
-        <a class = "links" href="#blogs">Blogs</a>
-      </li>
+ 
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fa fa-bars"></i>
+    </label>
+    <a href="/index.html"><label class="logo">Vidya Rautela</label></a>
+    <ul>
+      <li><a class="active" href="#">Home</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="/about.html">About</a></li>
+      <li><a href="/projects.html">Projects</a></li>
+      <li><a href="#">Resume</a></li>
+      <li><a href="#"></a></li>
     </ul>
-
   </nav>
-
   <header class = "hero">
     <img style="border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;" class = "hero-img" src ="images/ln_photo.jpg"/>
-    <h1 class = "hero-heading">Vidya Rautela <span style ="color:var(--primary-color)"> </span></h1>
+    <h1 class = "hero-heading">I'm a <span class="animate" style ="color:var(--primary-color)"> </span></h1>
     <!-- <p style="text-align: center;">I play with kali linux sometimes</p> -->
   </header>
-  <!-- <section class = "section ow">
-    <div class = "container container-center">
-    <h1>About me</h1>
- 
-    <p class = "big">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas nisi commodi provident perspiciatis corporis natus dolorum, cum sequi odit maiores, dolores reiciendis, quas nulla non. Repellat saepe molestiae nesciunt ea.</p>
-  </div>
-  </section> -->
   <section class = "section ow">
     <div class = "container container-center">
-    <h1>Technologies</h1>
-    <p class = "big">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas nisi commodi provident perspiciatis corporis natus dolorum, cum sequi odit maiores, dolores reiciendis, quas nulla non. Repellat saepe molestiae nesciunt ea.</p>
+    <h1 id="skills">Skills</h1>
+    <p class = "big"></p>
   </div>
   </section>
   <section class = "section">
     <div class = "container container-center">
     <h1 id = "projects">Projects</h1>
-    <p class = "big">  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, facere.</p>
+    <p class = "big"></p>
+    <br>
     <a class = "links primary-link" href="/projects.html">View Projects</a>
 
-    <a class = "links primary-link" href="#">Github</a>
+    
     </div>
   </section>
   <section class = "section ow">
     <div class = "container container-center">
     <h1 id = "blogs">Blogs</h1>
-    <p class = "big"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi perspiciatis harum sed repudiandae libero distinctio incidunt, maxime ex ab, corrupti dolorem odit, doloremque quidem alias tempore aliquid numquam ducimus pariatur.</p>
+    <p class = "big"></p>
+    <br>
     <a class = "links primary-link" href="/blogs.html">Read Blogs</a>
   </div>
   </section>
@@ -92,7 +87,22 @@
        <a class = "links" target="_blank" href = "#"><img src="/images/twitter.svg"></a>
       </li>
     </ul>
-    <p>Vidya Rautela &copy; 2021</p>
+    <p style="padding-top: 20px;">Vidya Rautela &copy; 2021</p>
+
   </footer>
+  <script src="/js/typed.js"></script>
+  <script>
+    var typed = new Typed('.animate', {
+      strings:[
+    "Web Developer",
+    "Web Developer",
+    "Cloud Avid",
+    "learner."
+      ],
+      typeSpeed: 60,
+      backSpeed: 60, 
+      loop:true
+    });
+  </script>
  </body>
  </html>
