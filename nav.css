@@ -12,11 +12,10 @@
     width: 100%;
     border-bottom-left-radius: 2rem;
       border-bottom-right-radius: 2rem;
-   
   }
   label.logo{
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold;
@@ -31,7 +30,7 @@
     margin: 0 5px;
   }
   nav ul li a{
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
@@ -55,8 +54,10 @@
   }
   @media (max-width: 952px){
     label.logo{
-      font-size: 25px;
+      font-size: 20px;
       padding-left: 50px;
+      display: contents;
+      margin-left: 3px;
     }
     nav ul li a{
       font-size: 16px;
@@ -70,7 +71,7 @@
       position: fixed;
       width: 100%;
       height: 100vh;
-      background: #182d5c;
+      background: rgba(24, 45, 92, 0.9);
       top: 80px;
       left: -100%;
       text-align: center;
