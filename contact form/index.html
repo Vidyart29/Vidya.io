@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/contact-page.css" />
+    <link rel="stylesheet" href="../nav.css">
+    <link rel="stylesheet" href="../style.css">
+    <script src="./js/smtp.js"></script>
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fa fa-bars"></i>
+      </label>
+      <a href="/index.html"><label class="logo" >Vidya Rautela</label></a>
+      <ul>
+        <li><a class="active" href="../index.html">Home</a></li>
+        <li><a href="../index.html">Skills</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="/projects.html">Projects</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="#">Resume</a></li>
+      </ul>
+    </nav>
+    <div class="contact-page">
+      <section>
+        <div class="contact-container">
+          <h2>Contact Us</h2>
+          <form action="POST" id="contact-form">
+            <div class="contact-row100">
+              <div class="contact-col">
+                <div class="contact-inputBox">
+                  <input type="text" name="" required="required" id="fname" />
+                  <span class="text">First Name</span>
+                  <span class="line"></span>
+                </div>
+              </div>
+
+              <div class="contact-col">
+                <div class="contact-inputBox">
+                  <input type="text" name="" required="required" id="lname" />
+                  <span class="text">Last Name</span>
+                  <span class="line"></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-row100">
+              <div class="contact-col">
+                <div class="contact-inputBox">
+                  <input type="text" name="" required="required" id="email" />
+                  <span class="text">Email</span>
+                  <span class="line"></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-row100">
+              <div class="contact-col">
+                <div class="contact-inputBox textarea">
+                  <textarea required="required" id="messageval"></textarea>
+                  <span class="text">Type your message here...</span>
+                  <span class="line"></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-row100">
+              <div class="contact-col">
+                <input type="submit" value="Send &rarr;" />
+              </div>
+              <div class="contact-error" id="error-box"></div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+    <footer class = "footer">
+      <div class = "footer-header">Connect with me:</div>
+      <ul class = "social-links list-non-bullet">
+        <li class = "list-item-inline">
+          <a class = "links" target="_blank" href = "mailto:vidya.rautela.28@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+        </li>
+        <li class = "list-item-inline">
+          <a class = "links" target="_blank" href = "https://www.linkedin.com/in/vidyarautela/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        </li>
+        <li class = "list-item-inline">
+         <a class = "links" target="_blank" href = "https://github.com/Vidyart29"><i class="fa fa-github" aria-hidden="true"></i>       </a>
+        </li>
+        <li class = "list-item-inline">
+         <a class = "links" target="_blank" href = "#"><i class="fa fa-twitter-square" aria-hidden="true"></i>       </a>
+        </li>
+      </ul>
+      <p style="padding-top: 20px;">Vidya Rautela &copy; 2021</p>
+  
+    </footer>
+    <script src="./js/contact-form-validation.js"></script>
+  </body>
+</html>
