@@ -141,3 +141,8 @@ p.big {
 .list-item-inline a:hover i {
   opacity: 1;
 }
+@media (max-width: 300px){
+.primary-link{
+  padding: 10px;
+}
+}
