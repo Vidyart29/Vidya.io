@@ -12,6 +12,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   /* margin: 0px; */
+  scroll-behavior: smooth;
 }
 hr {
   margin: 2rem 0rem;
@@ -83,9 +84,11 @@ hr {
   padding-top: 3rem;
 }
 .hero .hero-img {
-  max-width: 250px;
+  max-width: 210px;
   display: block;
   margin: auto;
+
+  
 }
 .hero .hero-heading {
   color: var(--blue-color);
